@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eduardo Salazar">
+    <meta name="description" content="My Creative Reinterpretation assignment">
+    <link rel="icon" href="/img/icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Creative Reinterpretation</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sir Gawain and the Green Knight</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Main Menu</a></li>
+                <li><a href="my-inter.html">My Interpretation</a></li>
+                <li><a href="com-inter.html">Community Interpretation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section">
+            <h2>Submit Your Interpretation:</h2>
+            <div class="figure">
+                <form id="interpretationForm">
+                    <label for="name">Your Name: </label>
+                    <input type="text" id="name" name="name" required><br><br>
+        
+                    <label for="interpretation">Your Interpretation: </label><br>
+                    <textarea id="interpretation" name="interpretation" rows="4" cols="50" required></textarea><br><br>
+        
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div id="append"></div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+    <footer>
+        <p>&copy; 2024 Sir Gawain and the Green Knight Retold. <a href="citations.html" style="color: red; text-decoration: underline;">Full Citations</a></p>
+    </footer>
+</body>
+</html>
